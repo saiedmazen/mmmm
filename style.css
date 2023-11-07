@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px;
+  
+}
+.loga{
+    width: 100px;
+}
+.links_header{
+    display: flex;
+    
+    
+}
+.links_header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    
+}
+.links_header ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-right:20px ;
+    
+}
+.links_header ul li  :hover{
+    background: rgb(11, 101, 235);
+    border-radius: 5px;
+}
+.section2{
+    background-image: url(imges/landing.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+    text-align: center;
+}
+.word{
+    position: absolute;
+    top: 50%;
+    right: 550px;
+    max-width: 100%;
+    width: 320px;
+    
+}
+.word h1{
+    color: #10cab7;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.word p{
+    font-size: 20px;
+    width: 320px;
+}
+.section3_icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+}
+.icon_1{
+    margin-top: 30px;
+    text-align: center;
+}
+.icon_1 i{
+    color: #10cab7;
+   
+}
+.icon_1 h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon_1 p{
+    color: black;
+    width: 240px;
+}
+.icon_2{
+    margin-top: 30px;
+    text-align: center;
+}
+.icon_2 i{
+    color: #10cab7;
+   
+}
+.icon_2 h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon_2 p{
+    color: black;
+    width: 240px;
+    margin-left: 20px;
+}
+.icon_3{
+    margin-top: 30px;
+    text-align: center;
+}
+.icon_3 i{
+    color: #10cab7;
+   
+}
+.icon_3 h3{
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icon_3 p{
+    color: black;
+    width: 240px;
+    margin-left: 20px;
+}
+.section4{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.section4 h2{
+    font-size: 25px;
+    font-weight: bold;  
+    position: absolute;
+    top: -60px;
+    left: 38%;
+}
+.icons_top{
+    display: flex;
+}
+.icons_top_right_1{
+     margin-left: 200px;
+}
+.icons_word1{
+    display: flex;
+    position: relative;
+   
+}
+.icons_word1 i{
+    color: #10cab7;
+    margin-top: 60px;
+}
+
+.icons_word1 h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.icons_top_right_1 p{
+    width: 300px;
+}
+
+
+.icons_top_left_2{
+    margin-left: 100px;
+}
+.icons_word2{
+   display: flex;
+   position: relative;
+  
+}
+.icons_word2 i{
+   color: #10cab7;
+   margin-top: 60px;
+}
+
+.icons_word2 h5{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 25px;
+}
+.icons_top_left_2 p{
+   width: 300px;
+}
+
+
+.icons_bottom{
+    display: flex;
+}
+.icons_bottom_right_3{
+     margin-left: 200px;
+     position: relative;
+}
+.icons_word3{
+    display: flex;
+    position: relative;
+    
+}
+.icons_word3 i{
+    color: #10cab7;
+    margin-top: 70px;
+}
+
+.icons_word3 h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+.icons_bottom_right_3 p{
+    width: 300px;
+    position: absolute;
+    top: 105px;
+}
+
+
+.icons_bottom_left_4{
+    margin-left: 270px;
+}
+.icons_word4{
+   display: flex;
+   position: relative;
+  
+}
+.icons_word4 i{
+   color: #10cab7;
+   margin-top: 60px;
+}
+
+.icons_word4 h5{
+   font-size: 20px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 25px;
+}
+.icons_bottom_left_4{
+   
+   width: 300px;
+}
+.img_icons4 {
+    margin-right: 200px;
+}
+.img_icons4 img{
+    width: 350px;    
+
+}
+.img_icons4::before{
+    background-color: #2c4755;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    width: 100px;
+    height: calc(100% + 70px);
+    content: "";
+    margin-right: 150px;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 400px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.section5 h2 {
+    position: absolute;
+    top: -140px;
+    right: 500px;
+    color:#797979
+}
+.div_right_section5 img{
+    width: 400px;
+}
+.div_right_section5 h3{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div_right_section5 p{
+    width: 300px;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+.div_mid_section5 img{
+    width: 400px;
+}
+.div_mid_section5 h3{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div_mid_section5 p{
+    width: 300px;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+.div_left_section5 img{
+    width: 400px;
+}
+.div_left_section5 h3{
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div_left_section5 p{
+    width: 300px;
+    margin-left: 25px;
+    opacity: 0.7;
+}
+
+.section6{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 200px;
+}
+.section6 h2{
+    position: absolute;
+    top: -120px;
+    right: 750px;
+    color: #797979;
+}
+.p_word{
+    /* margin-left: 200px; */
+    margin-right: 100px;
+}
+.word_P_up{
+    width: 700px;
+    margin-top: 260px;
+    font-size: 25px;
+}
+.word_P_under{
+    width: 700px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.img_finish img{
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 150px;
+    border: 4px solid #10cab7;
+
+}
+.p_word hr{
+    border: 2px solid   #10cab7;
+
+    width: 400px;
+    margin-right: 300px;
+}
+.last{
+    text-align: center;
+    margin-top: 200px;
+}
+.last h2{
+   color: #797979;
+   opacity: 0.7;
+
+}
+.last h3{
+     color: #2c4755;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 100px;
+}
+.last h4{
+    font-size: 45px;
+    margin-top: -27px;
+    font-weight:bolder;
+}
+.last h4 a {
+    text-decoration: none;
+    color: #10cab7;    
+}
+.word_icon_last{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.word_icon_last h5{
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.word_icon_last i {
+    margin-right: 13px;
+    margin-top: 35px;
+    opacity: 0.7;
+}
+.h5_list {
+    background-color: #2c4755;
+    color: white;
+    padding: 30px 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.h5_list span{
+    color: #10cab7;    
+}
